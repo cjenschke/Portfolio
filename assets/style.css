@@ -1,0 +1,23 @@
+.topnav {
+    background-color: slategrey;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: slategray;
+}
+
+.topnav a:active {
+    background-color: red;
+    color: slategray;
+}

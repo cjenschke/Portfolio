@@ -16,19 +16,28 @@ header nav ul li {
     float: left;
     color: white;
     text-align: center;
-    padding: 20px 22px;
+    padding: 0px 0px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav a:hover {
-    background-color: white;
-    color: slategray;
+    background-color: none;
+    color: #7FFF00;
 }
 
 .topnav a:active {
     background-color: red;
     color: slategray;
+}
+
+.topnav .social-icon {
+    color: red;
+    transition: color 0.2s;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 35px;
 }
 
 body {
@@ -55,15 +64,22 @@ body {
     background-image: url("./img/DSC00175.JPG");
     height: 100%;
 } */
-
-.social-icon {
-    color: red;
-    transition: color 0.2s;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 30px;
+/* main */
+main {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-.social-icon:hover {
-    color: slategray;
+.personal {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.personal img {
+    max-height: 150px;
 }

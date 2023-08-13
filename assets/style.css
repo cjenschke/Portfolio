@@ -22,22 +22,30 @@
     color: slategray;
 }
 
-body,
-html {
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./img/DSC00175.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+/* html {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 * {
     box-sizing: border-box;
 }
 
-.bg-image {
+/* .bg-image {
     background-image: url("./img/DSC00175.JPG");
     height: 100%;
-}
+} */
 
 .social-icon {
     color: red;

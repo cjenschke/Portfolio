@@ -34,9 +34,10 @@ header nav ul li {
 
 
 body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    background-color: none;
+    padding: 20px;
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -48,13 +49,13 @@ body {
 
 /* main */
 .hero-img {
-    height: 2000px;
+    height: 1500px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./img/8b24d3ba-d317-4b47-8210-f6e0fa462731.jpg");
     background-position: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 .hero-text {
@@ -67,7 +68,6 @@ body {
 main {
     width: 100%;
     display: inline-block;
-    margin-left: 20px;
 }
 
 .projects {
@@ -95,17 +95,13 @@ main {
     flex-wrap: wrap;
     background-color: #d7be9b;
     color: #ffffff;
-
+    font-size: 20px;
+    text-align: left;
+    text
 }
 
-/* .img-container {
-    background-color: #7FFF00;
-    display: flex;
-    justify-content: space-between;
-} */
-
 .personal img {
-    display: inline-block;
+    display: inline-flexbox;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +111,7 @@ main {
 
 /* footer */
 footer {
-    display: block
+    display: block;
 }
 
 .social-icon {

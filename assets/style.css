@@ -47,13 +47,21 @@ body {
 }
 
 /* main */
-.hero {
+.hero-img {
     height: 2000px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./img/DSC00175.JPG");
+    background-image: url("./img/8b24d3ba-d317-4b47-8210-f6e0fa462731.jpg");
+    background-position: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.hero-text {
+    text-align: center;
+    position: center;
+    color: white;
+    size: 100px;
 }
 
 main {
